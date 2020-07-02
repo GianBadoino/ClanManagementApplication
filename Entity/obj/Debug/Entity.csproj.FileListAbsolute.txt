@@ -1,0 +1,11 @@
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Entity\bin\Debug\Entity.dll
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Entity\bin\Debug\Entity.pdb
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Entity\obj\Debug\Entity.dll
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Entity\obj\Debug\Entity.pdb
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Entity\bin\Debug\Entity.dll
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Entity\bin\Debug\Entity.pdb
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Entity\obj\Debug\Entity.dll
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Entity\obj\Debug\Entity.pdb
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Entity\obj\Debug\Entity.csprojAssemblyReference.cache
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache

@@ -1,0 +1,90 @@
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\bin\Debug\EntityFramework.dll
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\bin\Debug\EntityFramework.SqlServer.dll
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\bin\Debug\MahApps.Metro.dll
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\bin\Debug\System.Data.SQLite.dll
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\bin\Debug\System.Windows.Interactivity.dll
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\bin\Debug\EntityFramework.xml
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\bin\Debug\EntityFramework.SqlServer.xml
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\bin\Debug\MahApps.Metro.pdb
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\bin\Debug\MahApps.Metro.xml
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\bin\Debug\System.Data.SQLite.xml
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\obj\Debug\Presentation.csprojResolveAssemblyReference.cache
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\obj\Debug\MainWindow.g.cs
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\obj\Debug\App.g.cs
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\obj\Debug\MainWindow.baml
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\obj\Debug\Presentation.Properties.Resources.resources
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\obj\Debug\Presentation.csproj.GenerateResource.Cache
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\obj\Debug\App.baml
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\bin\Debug\Entity.dll
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\bin\Debug\Entity.pdb
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\obj\Debug\HTC.g.cs
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\obj\Debug\HTC.baml
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\obj\Debug\HTCSession.g.cs
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\obj\Debug\HTCSession.baml
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\bin\Debug\WPFToolkit.dll
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\bin\Debug\GSH Manager.exe.config
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\bin\Debug\GSH Manager.exe
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\bin\Debug\GSH Manager.pdb
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\obj\Debug\GSH Manager_MarkupCompile.cache
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\obj\Debug\GSH Manager_MarkupCompile.lref
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\obj\Debug\GSH Manager.g.resources
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\obj\Debug\GSH Manager.exe
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\obj\Debug\GSH Manager.pdb
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\obj\Debug\ManagePlayers.g.cs
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\obj\Debug\ManagePlayers.baml
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\obj\Debug\AddEditPlayer.g.cs
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\obj\Debug\AddEditPlayer.baml
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\obj\Debug\AddParticipationPoints.g.cs
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\obj\Debug\AddParticipationPoints.baml
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\obj\Debug\Payments.g.cs
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application\Presentation\obj\Debug\Payments.baml
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\bin\Debug\GSH Manager.exe.config
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\obj\Debug\GSH Manager.exe
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\obj\Debug\GSH Manager.pdb
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\bin\Debug\GSH Manager.exe
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\bin\Debug\GSH Manager.pdb
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\bin\Debug\Entity.dll
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\bin\Debug\EntityFramework.dll
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\bin\Debug\EntityFramework.SqlServer.dll
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\bin\Debug\MahApps.Metro.dll
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\bin\Debug\System.Data.SQLite.dll
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\bin\Debug\System.Windows.Interactivity.dll
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\bin\Debug\WPFToolkit.dll
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\bin\Debug\Entity.pdb
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\bin\Debug\EntityFramework.xml
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\bin\Debug\EntityFramework.SqlServer.xml
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\bin\Debug\MahApps.Metro.pdb
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\bin\Debug\MahApps.Metro.xml
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\bin\Debug\System.Data.SQLite.xml
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\obj\Debug\AddEditPlayer.g.cs
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\obj\Debug\AddParticipationPoints.g.cs
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\obj\Debug\HTC.g.cs
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\obj\Debug\HTCSession.g.cs
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\obj\Debug\MainWindow.g.cs
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\obj\Debug\ManagePlayers.g.cs
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\obj\Debug\Payments.g.cs
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\obj\Debug\App.g.cs
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\obj\Debug\GSH Manager_MarkupCompile.cache
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\obj\Debug\GSH Manager_MarkupCompile.lref
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\obj\Debug\App.baml
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\obj\Debug\AddEditPlayer.baml
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\obj\Debug\AddParticipationPoints.baml
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\obj\Debug\HTC.baml
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\obj\Debug\HTCSession.baml
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\obj\Debug\MainWindow.baml
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\obj\Debug\ManagePlayers.baml
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\obj\Debug\Payments.baml
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\obj\Debug\GSH Manager.g.resources
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\obj\Debug\Presentation.Properties.Resources.resources
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\obj\Debug\Presentation.csproj.GenerateResource.Cache
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\obj\Debug\Presentation.csproj.ResolveComReference.cache
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\bin\Debug\System.Data.SQLite.dll.config
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\obj\Debug\Presentation.csprojAssemblyReference.cache
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\obj\Debug\Presentation.csproj.CoreCompileInputs.cache
+D:\Nueva carpeta\GIANFRANCO\2017\GSH_Management_Application - copia\Presentation\obj\Debug\Presentation.csproj.CopyComplete

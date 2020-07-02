@@ -1,0 +1,71 @@
+﻿<Controls:MetroWindow x:Class="Presentation.HTC"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Presentation"
+        mc:Ignorable="d"
+        xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+        Title="Jagd den Kommandant" Height="450" Width="450" Icon="GSH.ico" ResizeMode="CanMinimize">
+    <Grid>
+        <DataGrid x:Name="datagrd_Players" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Height="315" Width="345" AutoGeneratingColumn="datagrd_Players_AutoGeneratingColumn" CanUserResizeColumns="False" IsReadOnly="True">
+            <DataGrid.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Command="Copy" />
+                </ContextMenu>
+            </DataGrid.ContextMenu>
+        </DataGrid>
+        <Label x:Name="lbl_Overview" Content="Leaderboard" HorizontalAlignment="Left" Margin="166.652,12,0,0" VerticalAlignment="Top" TextOptions.TextHintingMode="Animated" TextOptions.TextFormattingMode="Display" UseLayoutRounding="False" FontSize="16" FontWeight="ExtraBlack" Foreground="#FF212BF1"/>
+        <Controls:Tile x:Name="tile_Atras" Title="" TiltFactor="2" Grid.Column="0" Width="45" Height="45" Margin="387,364,10,10" TextOptions.TextHintingMode="Animated" FontSize="12" FontFamily="Microsoft Sans Serif" HorizontalTitleAlignment="Center" Background="#CCFFFFFF" Click="tile_Atras_Click">
+            <Rectangle Width="45" Height="45">
+                <Rectangle.Fill>
+                    <VisualBrush>
+                        <VisualBrush.Visual>
+                            <Grid>
+                                <Rectangle/>
+                                <Image Source="Back.png"/>
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </VisualBrush.Visual>
+                    </VisualBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Controls:Tile>
+        <Controls:Tile x:Name="tile_StartNewSeason" Title="" TiltFactor="2" Grid.Column="0" Width="45" Height="Auto" Margin="387,50,10,324" TextOptions.TextHintingMode="Animated" FontSize="12" FontFamily="Microsoft Sans Serif" HorizontalTitleAlignment="Center" Background="#CCFFFFFF" Click="tile_StartNewSeason_Click">
+            <Controls:Tile.BindingGroup>
+                <BindingGroup/>
+            </Controls:Tile.BindingGroup>
+            <Rectangle Width="45" Height="45">
+                <Rectangle.Fill>
+                    <VisualBrush>
+                        <VisualBrush.Visual>
+                            <Grid>
+                                <Rectangle/>
+                                <Image Source="Stop.png"/>
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </VisualBrush.Visual>
+                    </VisualBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Controls:Tile>
+        <Controls:Tile x:Name="tile_Editar" Title="" TiltFactor="2" Grid.Column="0" Width="45" Height="45" Margin="387,195,10,179" TextOptions.TextHintingMode="Animated" FontSize="12" FontFamily="Microsoft Sans Serif" HorizontalTitleAlignment="Center" Background="#CCFFFFFF" Click="tile_Editar_Click">
+            <Rectangle Width="45" Height="45">
+                <Rectangle.Fill>
+                    <VisualBrush>
+                        <VisualBrush.Visual>
+                            <Grid>
+                                <Rectangle/>
+                                <Image Source="Start_Session.png"/>
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </VisualBrush.Visual>
+                    </VisualBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Controls:Tile>
+        <Button x:Name="btn_SelectAll" Content="Select All" Margin="184,382,183,0" VerticalAlignment="Top" Click="btn_SelectAll_Click"/>
+        <Button x:Name="btn_Export" Content="Export" HorizontalAlignment="Left" Margin="10,382,0,0" VerticalAlignment="Top" Width="75" Click="btn_Export_Click"/>
+
+    </Grid>
+</Controls:MetroWindow>

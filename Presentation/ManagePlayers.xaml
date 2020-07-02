@@ -1,0 +1,91 @@
+﻿<Controls:MetroWindow x:Class="Presentation.ManagePlayers"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Presentation"
+        mc:Ignorable="d"
+        xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+        Title="Players" Height="650" Width="754.201" Icon="GSH.ico" ResizeMode="CanMinimize">
+    <Grid>
+        <Controls:Tile x:Name="tile_Back" Title="" TiltFactor="2" Grid.Column="0" Width="45" Height="45" Margin="688,547,13,27" TextOptions.TextHintingMode="Animated" FontSize="12" FontFamily="Microsoft Sans Serif" HorizontalTitleAlignment="Center" Background="#CCFFFFFF" Click="tile_Back_Click">
+            <Rectangle Width="45" Height="45">
+                <Rectangle.Fill>
+                    <VisualBrush>
+                        <VisualBrush.Visual>
+                            <Grid>
+                                <Rectangle/>
+                                <Image Source="Back.png"/>
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </VisualBrush.Visual>
+                    </VisualBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Controls:Tile>
+        <DataGrid x:Name="datagrd_Players" HorizontalAlignment="Left" Margin="10,27,0,0" VerticalAlignment="Top" Width="653" Height="517" AutoGeneratingColumn="datagrd_Players_AutoGeneratingColumn" SelectionChanged="datagrd_Players_SelectionChanged" IsTabStop="True"/>
+        <Controls:Tile x:Name="tile_AddPlayer" Title="" TiltFactor="2" Grid.Column="0" Width="35" Height="35" Margin="698,175,13,409" TextOptions.TextHintingMode="Animated" FontSize="12" FontFamily="Microsoft Sans Serif" HorizontalTitleAlignment="Center" Background="White" Click="tile_AddPlayer_Click">
+            <Rectangle Width="35" Height="34">
+                <Rectangle.Fill>
+                    <VisualBrush>
+                        <VisualBrush.Visual>
+                            <Grid>
+                                <Rectangle/>
+                                <Image Source="Add.png"/>
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </VisualBrush.Visual>
+                    </VisualBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Controls:Tile>
+        <Controls:Tile x:Name="tile_EditPlayer" Title="" TiltFactor="2" Grid.Column="0" Width="35" Height="35" Margin="698,275,13,309" TextOptions.TextHintingMode="Animated" FontSize="12" FontFamily="Microsoft Sans Serif" HorizontalTitleAlignment="Center" Background="White" Click="tile_EditPlayer_Click">
+            <Rectangle Width="35" Height="34">
+                <Rectangle.Fill>
+                    <VisualBrush>
+                        <VisualBrush.Visual>
+                            <Grid>
+                                <Rectangle/>
+                                <Image Source="Edit.png"/>
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </VisualBrush.Visual>
+                    </VisualBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Controls:Tile>
+        <Controls:Tile x:Name="tile_DeletePlayer" Title="" TiltFactor="2" Grid.Column="0" Width="35" Height="35" Margin="698,375,13,209" TextOptions.TextHintingMode="Animated" FontSize="12" FontFamily="Microsoft Sans Serif" HorizontalTitleAlignment="Center" Background="White" Click="tile_DeletePlayer_Click">
+            <Rectangle Width="35" Height="34">
+                <Rectangle.Fill>
+                    <VisualBrush>
+                        <VisualBrush.Visual>
+                            <Grid>
+                                <Rectangle/>
+                                <Image Source="Delete.png"/>
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </VisualBrush.Visual>
+                    </VisualBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Controls:Tile>
+        <Controls:Tile x:Name="tile_Refresh" Title="" TiltFactor="2" Grid.Column="0" Width="35" Height="35" Margin="698,27,13,557" TextOptions.TextHintingMode="Animated" FontSize="12" FontFamily="Microsoft Sans Serif" HorizontalTitleAlignment="Center" Background="White" Click="tile_Refresh_Click">
+            <Rectangle Width="35" Height="34">
+                <Rectangle.Fill>
+                    <VisualBrush>
+                        <VisualBrush.Visual>
+                            <Grid>
+                                <Rectangle/>
+                                <Image Source="Refresh.png"/>
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </VisualBrush.Visual>
+                    </VisualBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Controls:Tile>
+        <Button x:Name="btn_AddParticipationPoints" Content="                Add &#xD;&#xA;Participation Points" HorizontalAlignment="Left" Margin="10,549,0,0" VerticalAlignment="Top" Width="130" Click="btn_AddParticipationPoints_Click" Height="45" Background="#FFC5D8FF"/>
+        <Button x:Name="btn_Payments" Content="Payments" HorizontalAlignment="Left" Margin="186,549,0,0" VerticalAlignment="Top" Width="130" Height="43" Background="#FFC5D8FF" Click="btn_Payments_Click"/>
+
+    </Grid>
+</Controls:MetroWindow>

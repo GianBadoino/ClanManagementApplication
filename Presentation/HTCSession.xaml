@@ -1,0 +1,91 @@
+﻿<Controls:MetroWindow x:Class="Presentation.HTCSession"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Presentation"
+        mc:Ignorable="d"
+        xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+        Title="HTC Session" Height="500" Width="498" Background="#FFC5D8FF" ResizeMode="CanMinimize" Icon="GSH.ico">
+    <Grid Margin="0,0,2,0">
+        <ComboBox x:Name="combox_Players" HorizontalAlignment="Left" Margin="188,36,0,0" VerticalAlignment="Top" Width="160"/>
+        <Controls:Tile x:Name="tile_AddPlayer" Title="" TiltFactor="2" Grid.Column="0" Width="35" Height="35" Margin="355,33,100,403" TextOptions.TextHintingMode="Animated" FontSize="12" FontFamily="Microsoft Sans Serif" HorizontalTitleAlignment="Center" Background="#FFC5D8FF" Click="tile_AddPlayer_Click">
+            <Rectangle Width="35" Height="34">
+                <Rectangle.Fill>
+                    <VisualBrush>
+                        <VisualBrush.Visual>
+                            <Grid>
+                                <Rectangle/>
+                                <Image Source="Add.png"/>
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </VisualBrush.Visual>
+                    </VisualBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Controls:Tile>
+        <Label x:Name="lbl_SearchPlayer" Content="Search Player:" HorizontalAlignment="Left" Margin="100,36,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.711,0.423"/>
+        <DataGrid x:Name="datagrd_ParticipatingPlayers" HorizontalAlignment="Left" Margin="25,120,0,0" Height="274" Width="290" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" AutoGeneratingColumn="datagrd_ParticipatingPlayers_AutoGeneratingColumn" CanUserSortColumns="False" SelectionChanged="datagrd_ParticipatingPlayers_SelectionChanged" IsReadOnly="True">
+            <DataGrid.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.129"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.406"/>
+                </TransformGroup>
+            </DataGrid.RenderTransform>
+        </DataGrid>
+        <TextBox x:Name="txtbx_PointsEarned" HorizontalAlignment="Left" Height="23" Margin="115,87,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50" PreviewKeyDown="txtbx_PointsEarned_PreviewKeyDown"/>
+        <Label x:Name="lbl_PointsEarned" Content="Points Earned:" HorizontalAlignment="Left" Margin="20,87,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Button x:Name="btn_AddHTCPoints" Content="Add Points" HorizontalAlignment="Left" Margin="170,87,0,0" VerticalAlignment="Top" Width="75" Click="btn_AddHTCPoints_Click"/>
+        <DataGrid x:Name="datagrd_PointsEarned" HorizontalAlignment="Left" Margin="314,120,0,0" VerticalAlignment="Top" Width="60" Height="274" CanUserSortColumns="False" AutoGeneratingColumn="datagrd_PointsEarned_AutoGeneratingColumn" CanUserResizeColumns="False" SelectionChanged="datagrd_PointsEarned_SelectionChanged" IsReadOnly="True"/>
+        <DataGrid x:Name="datagrd_History" Margin="375,120,0,0" VerticalAlignment="Top" Height="274" IsReadOnly="True" CanUserSortColumns="False" AutoGeneratingColumn="datagrd_History_AutoGeneratingColumn" CanUserResizeColumns="False" SelectionChanged="datagrd_History_SelectionChanged" HorizontalAlignment="Left" Width="90"/>
+        <Button x:Name="btn_ProclaimWinner" Content="Proclaim Winner" HorizontalAlignment="Left" Margin="195,407,0,0" VerticalAlignment="Top" Width="110" Click="btn_ProclaimWinner_Click"/>
+        <Controls:Tile x:Name="tile_Atras" Title="" TiltFactor="2" Grid.Column="0" Width="45" Height="45" Margin="420,416,25,10" TextOptions.TextHintingMode="Animated" FontSize="12" FontFamily="Microsoft Sans Serif" HorizontalTitleAlignment="Center" Background="#FFC5D8FF" Click="tile_Atras_Click">
+            <Rectangle Width="45" Height="45">
+                <Rectangle.Fill>
+                    <VisualBrush>
+                        <VisualBrush.Visual>
+                            <Grid>
+                                <Rectangle/>
+                                <Image Source="CloseSession.png"/>
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </VisualBrush.Visual>
+                    </VisualBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Controls:Tile>
+        <Controls:Tile x:Name="tile_Undo" Title="" TiltFactor="2" Grid.Column="0" Width="30" Height="Auto" Margin="20,10,440,431" TextOptions.TextHintingMode="Animated" FontSize="12" FontFamily="Microsoft Sans Serif" HorizontalTitleAlignment="Center" Background="#FFC5D8FF" Click="tile_Undo_Click">
+            <Rectangle Width="26" Height="26">
+                <Rectangle.Fill>
+                    <VisualBrush>
+                        <VisualBrush.Visual>
+                            <Grid>
+                                <Rectangle/>
+                                <Image Source="Undo.png"/>
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </VisualBrush.Visual>
+                    </VisualBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Controls:Tile>
+        <Controls:Tile x:Name="tile_Redo" Title="" TiltFactor="2" Grid.Column="0" Width="30" Height="Auto" Margin="55,10,405,431" TextOptions.TextHintingMode="Animated" FontSize="12" FontFamily="Microsoft Sans Serif" HorizontalTitleAlignment="Center" Background="#FFC5D8FF" Click="tile_Redo_Click">
+            <Rectangle Width="26" Height="26">
+                <Rectangle.Fill>
+                    <VisualBrush>
+                        <VisualBrush.Visual>
+                            <Grid>
+                                <Rectangle/>
+                                <Image Source="Redo.png"/>
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </VisualBrush.Visual>
+                    </VisualBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Controls:Tile>
+
+    </Grid>
+</Controls:MetroWindow>

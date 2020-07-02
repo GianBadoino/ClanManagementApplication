@@ -1,0 +1,20 @@
+﻿<Controls:MetroWindow x:Class="Presentation.AddParticipationPoints"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Presentation"
+        mc:Ignorable="d"
+        xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+        Title="Add Participation Points" Height="200" Width="250" Background="#FFC5D8FF" Icon="GSH.ico" ResizeMode="CanMinimize">
+    <Grid>
+        <Label x:Name="lbl_Name" Content="" HorizontalAlignment="Left" Margin="20,20,0,0" VerticalAlignment="Top" FontWeight="ExtraBold"/>
+        <Label x:Name="lbl_Points" Content="Points Added: " HorizontalAlignment="Left" Margin="20,89,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtbx_Points" Height="23" Margin="112,89,20,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" PreviewKeyDown="txtbx_Points_PreviewKeyDown" IsReadOnly="True"/>
+        <Button x:Name="btn_Confirm" Content="Done" Margin="98,132,98,0" VerticalAlignment="Top" Click="btn_Confirm_Click"/>
+        <Label x:Name="lbl_Add" Content="Add: " HorizontalAlignment="Left" Margin="20,58,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btn_PlussOne" Content="+1" HorizontalAlignment="Left" Margin="112,57,0,0" VerticalAlignment="Top" Width="40" Click="btn_PlussOne_Click"/>
+        <Button x:Name="btn_MinusOne" Content="-1" HorizontalAlignment="Left" Margin="157,57,0,0" VerticalAlignment="Top" Width="40" Click="btn_MinusOne_Click"/>
+
+    </Grid>
+</Controls:MetroWindow>

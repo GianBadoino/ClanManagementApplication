@@ -1,0 +1,42 @@
+﻿<Controls:MetroWindow x:Class="Presentation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Presentation"
+        mc:Ignorable="d"
+        xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+        Title="GSH Management Application" Height="375" Width="430" Icon="GSH.ico" ResizeMode="CanMinimize">
+    <Grid Margin="0,0,2,0">
+        <Controls:Tile x:Name="tile_HTC" Title="HTC" TiltFactor="2" Grid.Column="0" Width="Auto" Height="Auto" Margin="51,100,228,104" TextOptions.TextHintingMode="Animated" FontSize="12" FontFamily="Microsoft Sans Serif" HorizontalTitleAlignment="Center" Click="tile_HTC_Click">
+            <Rectangle Width="135" Height="105" Margin="0,-15,0,0">
+                <Rectangle.Fill>
+                    <VisualBrush>
+                        <VisualBrush.Visual>
+                            <Grid>
+                                <Rectangle/>
+                                <Image Source="HTC.png"/>
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </VisualBrush.Visual>
+                    </VisualBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Controls:Tile>
+        <Controls:Tile x:Name="tile_PlayerManager" Title="Manage Players" TiltFactor="2" Grid.Column="0" Width="Auto" Height="Auto" Margin="230,100,50,104" TextOptions.TextHintingMode="Animated" FontSize="12" FontFamily="Microsoft Sans Serif" HorizontalTitleAlignment="Center" Click="tile_PlayerManager_Click">
+            <Rectangle Width="102" Height="105" Margin="0,-15,0,0">
+                <Rectangle.Fill>
+                    <VisualBrush>
+                        <VisualBrush.Visual>
+                            <Grid>
+                                <Rectangle/>
+                                <Image Source="Players.png"/>
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </VisualBrush.Visual>
+                    </VisualBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Controls:Tile>
+    </Grid>
+</Controls:MetroWindow>
